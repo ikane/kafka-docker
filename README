@@ -1,0 +1,13 @@
+
+
+
+## List topics
+./kafka-topics.sh --bootstrap-server localhost:9092 --list
+
+## Describe topic
+
+./kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic test
+
+## Produce message
+
+./kafka-console-producer.sh --bootstrap-server localhost:9092 --topic test
